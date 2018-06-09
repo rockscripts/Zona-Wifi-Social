@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wifi-gratis/program/
+</IfModule>
+#order deny,allow
+#deny from all
+#allow from 181.60.34.243
